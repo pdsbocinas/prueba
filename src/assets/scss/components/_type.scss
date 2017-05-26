@@ -1,0 +1,73 @@
+p {
+	color: $text-color;
+
+	.block-presentation & {
+		color: $white;
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 30px;
+
+		@media(min-width: $screen-sm-min){
+			margin-bottom: 10px;
+		}
+	}
+
+	.about & {
+		color: $text-section-color;
+	    font-size: 14px;
+    	line-height: 26px;
+    	margin-bottom: 20px;
+	}
+
+	.item-journal & {
+	    padding: 0 50px;
+        margin-bottom: 70px;
+    	font-size: 14px;
+    	line-height: 24px;
+	}
+}
+
+h1 {
+	background-image: url($img-title-header);
+	background-repeat: no-repeat;
+    width: 489px;
+    height: 62px;
+	display: block;
+	text-indent: -10000px;
+    background-size: 57% auto;
+
+	@media(min-width: $screen-sm-min){
+		background-size: 100% auto;
+		height: 93px;
+	}
+}
+
+h2 {
+	font-size: $font-size-h2; 
+	text-transform: uppercase;
+
+	.about & {
+		color: $title-section-color;
+		font-size: $font-size-large;		
+	}
+
+	.journal & {
+		margin-bottom: 75px;
+	}
+}
+
+h3 {
+	.item-journal & {
+		font-size: 16px;
+	    text-transform: uppercase;
+	    padding: 0 50px;
+	    line-height: 24px;
+	    letter-spacing: 2px;
+	}	
+}
+
+.badge {
+    background-color: transparent;
+    color: $black;
+    font-style: italic;
+}

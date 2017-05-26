@@ -1,0 +1,24 @@
+.icon {
+	background-image: url($img-icons-journal);
+	background-repeat: no-repeat;
+	width: 81px;
+	height: 90px;
+	position: absolute;
+	top: calc(50% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+	&.icon-heart{
+		background-position: 0 0;
+	}
+
+	&.icon-drop{
+		background-position: 0 -82px;
+	}
+
+	&.icon-leave{
+	    background-position: 0 -169px;
+	}
+}

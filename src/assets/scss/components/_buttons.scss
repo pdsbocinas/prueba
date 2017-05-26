@@ -1,0 +1,31 @@
+.btn-default{
+	background-color: transparent;
+	background-image: none;
+	border-color: $btn-border-color;
+	color: $label-color;
+}
+
+.btn-primary {
+    box-shadow: none;
+    background-image: none;
+    border-color: transparent;
+    background-color: $btn-bg-color;
+    text-shadow: none;
+    padding: 9px 22px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: $btn-color;
+
+    &:hover, &:focus, &:active {
+    	background-color: $btn-hover-color;
+    	border-color: transparent;
+    	color: inherit;
+    }
+
+    .block-presentation &{
+	    padding: 15px 75px;
+	    background-color: $label-color;
+	    color: $white;
+    }
+}

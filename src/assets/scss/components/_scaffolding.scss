@@ -1,0 +1,15 @@
+.main-content {
+	overflow: hidden;
+	width: 100%;
+}
+
+a {
+  color: $link-color;
+
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+
+}

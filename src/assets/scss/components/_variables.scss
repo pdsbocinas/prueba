@@ -1,0 +1,35 @@
+$white:					#fff;
+$black:					$gray-base;
+$blue: 					#36aeea;
+
+$brand-primary:         #9daeb6;
+
+$bg-section-color: 		#f6f4f4;
+
+//** Global textual link color.
+$link-color:            $brand-primary;
+$text-color: 			$gray-light;
+$label-color:			$blue;
+
+$title-section-color: 	$black;
+
+$text-section-color: 	$gray-light;
+
+$btn-color: 			$white;
+$btn-border-color: 		$label-color;
+$btn-bg-color: 			$label-color;
+$btn-hover-color:   	$blue;
+
+$btn-toggle: 			$blue;
+$line-header:			$blue;
+
+// URLs
+$url-images: '../../web/images/';
+
+$img-title-header: $url-images + 'header-title.png';
+$img-banner-home: $url-images + 'banner.jpg';
+$img-banner-home-mobile: $url-images + 'banner-mobile.jpg';
+$img-world-home: $url-images + 'world.png';
+$img-icons-journal: $url-images + 'icon-sprite.png';
+
+$bg-navbar: $white;

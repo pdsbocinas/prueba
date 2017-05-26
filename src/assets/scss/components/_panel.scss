@@ -1,0 +1,24 @@
+.panel {
+	-webkit-box-shadow: -1px 0px 14px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: -1px 0px 14px 0px rgba(0,0,0,0.2);
+	box-shadow: -1px 0px 14px 0px rgba(0,0,0,0.2); 
+	border: none;
+	overflow: hidden;
+	
+	div {
+		padding: 0;
+		margin: 0;
+	}
+
+	.item-journal {
+		text-align: center;
+
+		.label {
+			color: $label-color;
+			background-color: transparent;
+		    text-transform: uppercase;
+		    display: block;
+		    margin: 45px 0;
+		}
+	}
+}
